@@ -1,6 +1,5 @@
 <?php
 
-// 1. Array multidimensi
 $matkul = [
     ["nama" => "Pemrograman Web", "sks" => 3, "nilai" => 85],
     ["nama" => "Basis Data", "sks" => 3, "nilai" => 72],
@@ -9,7 +8,6 @@ $matkul = [
     ["nama" => "Sistem Operasi", "sks" => 3, "nilai" => 90],
 ];
 
-// 2. Fungsi helper
 function hitungBobot($nilai)
 {
     if ($nilai >= 80) {
